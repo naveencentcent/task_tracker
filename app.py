@@ -27,6 +27,7 @@ app = Flask(__name__)
 # -----------------------------
 # Database Configuration
 # -----------------------------
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-secret-key")
 
 database_url = os.environ.get("DATABASE_URL")
 
