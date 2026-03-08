@@ -19,7 +19,7 @@ from database import db
 from flask_login import UserMixin
 
 # -----------------------------
-# Create Flask App
+# Create Flask Apps
 # -----------------------------
 
 app = Flask(__name__)
